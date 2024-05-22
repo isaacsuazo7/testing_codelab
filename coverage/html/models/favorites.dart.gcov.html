@@ -37,7 +37,7 @@
           </tr>
           <tr>
             <td class="headerItem">Date:</td>
-            <td class="headerValue">2024-05-20 17:44:16</td>
+            <td class="headerValue">2024-05-22 17:42:24</td>
             <td></td>
             <td class="headerItem">Functions:</td>
             <td class="headerCovTableEntry">0</td>
@@ -65,16 +65,16 @@
 <a name="3"><span class="lineNum">       3 </span>            : class Favorites extends ChangeNotifier {</a>
 <a name="4"><span class="lineNum">       4 </span>            :   final List&lt;int&gt; _favoriteItems = [];</a>
 <a name="5"><span class="lineNum">       5 </span>            : </a>
-<a name="6"><span class="lineNum">       6 </span><span class="lineCov">          2 :   List&lt;int&gt; get items =&gt; _favoriteItems;</span></a>
+<a name="6"><span class="lineNum">       6 </span><span class="lineCov">          6 :   List&lt;int&gt; get items =&gt; _favoriteItems;</span></a>
 <a name="7"><span class="lineNum">       7 </span>            : </a>
-<a name="8"><span class="lineNum">       8 </span><span class="lineCov">          1 :   void add(int item) {</span></a>
-<a name="9"><span class="lineNum">       9 </span><span class="lineCov">          2 :     _favoriteItems.add(item);</span></a>
-<a name="10"><span class="lineNum">      10 </span><span class="lineCov">          1 :     notifyListeners();</span></a>
+<a name="8"><span class="lineNum">       8 </span><span class="lineCov">          3 :   void add(int item) {</span></a>
+<a name="9"><span class="lineNum">       9 </span><span class="lineCov">          6 :     _favoriteItems.add(item);</span></a>
+<a name="10"><span class="lineNum">      10 </span><span class="lineCov">          3 :     notifyListeners();</span></a>
 <a name="11"><span class="lineNum">      11 </span>            :   }</a>
 <a name="12"><span class="lineNum">      12 </span>            : </a>
-<a name="13"><span class="lineNum">      13 </span><span class="lineCov">          1 :   void remove(int item) {</span></a>
-<a name="14"><span class="lineNum">      14 </span><span class="lineCov">          2 :     _favoriteItems.remove(item);</span></a>
-<a name="15"><span class="lineNum">      15 </span><span class="lineCov">          1 :     notifyListeners();</span></a>
+<a name="13"><span class="lineNum">      13 </span><span class="lineCov">          3 :   void remove(int item) {</span></a>
+<a name="14"><span class="lineNum">      14 </span><span class="lineCov">          6 :     _favoriteItems.remove(item);</span></a>
+<a name="15"><span class="lineNum">      15 </span><span class="lineCov">          3 :     notifyListeners();</span></a>
 <a name="16"><span class="lineNum">      16 </span>            :   }</a>
 <a name="17"><span class="lineNum">      17 </span>            : }</a>
 </pre>
